@@ -1,0 +1,155 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+	background: #404040; 
+	background-image: url("images/morningjoe-bg.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;	
+}
+
+.center {
+    width: 600px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: rgba(145, 172, 147, 0.75); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	
+}
+
+   
+#logo {
+    margin-bottom: 16px;
+	border: none;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Concert One', cursive;	
+	font-size: 2.5em;
+    margin: 0px auto 10px auto;
+    color: rgb(215, 193, 233);
+}
+
+h2 {
+	 font-family: 'Concert One', cursive;
+	font-size: 2.0em;
+    line-height: 1.4;
+    color: rgb(215, 193, 233);
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+	font-family: 'Concert One', cursive;	;
+	font-size: 1.8em;
+    line-height: 1.6;
+    color: rgb(213, 203, 221);
+}
+nav{
+	
+	font-family: 'Concert One', cursive;
+	font-size: 1.8em;
+	width: 600px;
+	margin: 0 auto;
+	border: seashell;
+	 border-width: 3px 0;
+	 text-align: center;
+	 margin-top: 2em;
+	 position: fixed;
+	 top: 0;
+	 left: 0%;
+	 right: 100%;
+	 width: 500px;
+	padding: 1%;
+    margin: 100px auto;
+ 	background: rgba(252, 252, 252, 0.75); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	 
+	
+
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px;
+}
+    
+a{
+	color:rgb(157, 185, 164);
+	text-decoration: cornflowerblue;
+	font-weight: bold;
+}
+
+a:hover{
+	color: white;
+	background: rgb(253, 165, 0);
+
+
+}
+    
+
